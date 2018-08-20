@@ -15,4 +15,6 @@ function deleteFromObjectByKey(recipes){
   return newRecipes
 }
 
-function 
+function destructivelyDeleteFromObjectByKey(recipes){
+  delete recipes.prop;
+}
